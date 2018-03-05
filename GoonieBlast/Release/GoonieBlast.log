@@ -1,0 +1,26 @@
+﻿Build started 2015/7/23 21:44:53.
+     1>Project "E:\cs32\GoonieBlast\GoonieBlast\GoonieBlast.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         E:\Program Files\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D GLUT_BUILDING_LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Actor.cpp GameController.cpp GameWorld.cpp main.cpp StudentWorld.cpp
+         Actor.cpp
+         GameController.cpp
+         GameWorld.cpp
+         main.cpp
+         StudentWorld.cpp
+     1>StudentWorld.cpp(875): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         E:\Program Files\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release\GoonieBlast.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Release\GoonieBlast.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release\GoonieBlast.lib" /MACHINE:X86 /SAFESEH:NO Release\Actor.obj
+         Release\GameController.obj
+         Release\GameWorld.obj
+         Release\main.obj
+         Release\StudentWorld.obj
+         Generating code
+     1>e:\cs32\goonieblast\goonieblast\actor.cpp(38): warning C4715: 'Actor::returnMyself' : not all control paths return a value
+         Finished generating code
+         GoonieBlast.vcxproj -> E:\cs32\GoonieBlast\GoonieBlast\.\Release\GoonieBlast.exe
+     1>Done Building Project "E:\cs32\GoonieBlast\GoonieBlast\GoonieBlast.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.29
