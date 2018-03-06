@@ -1,1 +1,2 @@
 # GoonieBlast
+GoonieBlast is a school final project which features a classic 2D game mode. A hero can eat diamonds to increase its health, go to upstairs or downstairs by a cave and be attacked by some malicious robot. The release version of GoonieBlast could be found at the Release file in the GoonieBlast.zip. Also, in a file called engle, I included several files which I mainly edited to implement game features.
